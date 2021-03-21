@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>My first three.js app</title>
     <style>
-body {
-  font-size: 16pt;
-}
-#c {
-  float: left;
-  padding: 5px;
-  width: 50vw;
-  height: 50vh;
-}
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
+        body {
+            font-size: 16pt;
+        }
+
+        #c {
+            float: left;
+            /* padding: 5px; */
+            width: 100vw;
+            height: 100vh;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
-    <canvas id="c"></canvas> 
+<body>
+    <canvas id="c"></canvas>
     <!-- <script></script> -->
     <!-- <script src="js/three.js"></script> -->
     <script type="module">
-    //   import * as THREE from "./build/three.module.js";
-      import * as THREE from 'https://unpkg.com/three@<version>/build/three.module.js';
+        //   import * as THREE from "./build/three.module.js";
+      import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
 
 function main() {
 
@@ -116,5 +124,6 @@ function main() {
 main();
 
     </script>
-  </body>
+</body>
+
 </html>
