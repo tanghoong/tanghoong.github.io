@@ -878,7 +878,6 @@ a:active {
   -webkit-text-fill-color: var(--color-primary-contrast);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-primary-contrast);
-  text-shadow: 0 0 10px var(--color-primary-dark);
 }
 
 .color {

@@ -59,7 +59,7 @@ const Nav = props => {
 
             React.createElement("span", null)), /*#__PURE__*/
 
-          React.createElement("p", { className: "brand" }, "THE", /*#__PURE__*/
+          React.createElement("p", { className: "brand" }, "TANG", /*#__PURE__*/
             React.createElement("strong", null, " Hoong's E Space")), /*#__PURE__*/
 
           // React.createElement("a", {
